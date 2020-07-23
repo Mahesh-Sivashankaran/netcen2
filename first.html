@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Myself</title>
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+.tab a{
+	text-decoration: none;
+	margin:5%;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.lft {
+	margin-left: 3%;
+	margin-right:2%
+}
+.tpp {
+	margin-top: 8%
+}
+
+</style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div class='tab'>
+	<a href="#">Personal Description Abstract</a>
+	<a href="#">Professional and Academic Experience</a>
+	<a href="#">Education</a>
+	<a href="#">Communication Skill</a>
+</div>
+<img src="data:image/jpeg;base64,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" style="width: 12%;height: 30%;float: right; margin-top: 2%;margin-right: 5%" >
+<div class="lft"><h2 style="text-align: center; color: red">Scrolling Quote for the day</h2>
+<p>Personal Description Abstract</p>
+<p>Professional and Academic Experience <a href="https://www.linkedin.com/in/mahesh-sivashankaran-7260aa1a0/">also include a link to your publication details</a></p>
+<p>Education</p>
+<p>Communication Skills</p>
+
+<div class="row">
+<p ><strong>My contact info:</strong><br>
+  <b>Author: </b>MAHESH SIVASHANKARAN<br>
+  <b>Email: </b>sivamahesh452@gmail.com<br>
+  <b>Phno: </b>+918220771237
+</p>
+<p>
+	<audio width="250" controls>
+  	<source src="https://www.learningcontainer.com/wp-content/uploads/2020/02/Sample-OGG-File.ogg" type="audio/ogg">
+	</audio>
+</p>
+<p >
+	<video width="250" controls>
+  	<source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" type="video/mp4">
+	</video>
+</p>
+<p >
+	<div  class="mapouter"><p style="margin-right:35%">My Location</p><div class="gmap_canvas"><iframe width="300" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=malaisamy%20kovil%20madukkarai&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+</p>
+</div>
+</div>
+</body>
+</html>
